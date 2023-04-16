@@ -2,17 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FirstCompComponent } from './first-comp/first-comp.component';
-import { SecondCompComponent } from './second-comp/second-comp.component';
+import { FormsModule } from '@angular/forms';
+import { DEmoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstCompComponent,
-    SecondCompComponent
+    DEmoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
